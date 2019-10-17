@@ -1,11 +1,11 @@
 module.exports = [
     {
-        name: 'scroll_feature',
+        name: 'weweb',
         storeName: {
-            en_GB: "Feature section with scroll animation"
+            en_GB: "little cards to display features"
         },
         storeDesc: {
-            en_GB: "Feature section with scroll animation"
+            en_GB: ""
         }
     }
 ]

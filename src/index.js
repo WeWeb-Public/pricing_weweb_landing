@@ -1,4 +1,4 @@
-import section from './scrollFixedFeatures.vue'
+import section from './featuresLittleCards.vue'
 
 const name = "__NAME__";
 const version = '__VERSION__';

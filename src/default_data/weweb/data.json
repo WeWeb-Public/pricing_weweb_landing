@@ -1,0 +1,851 @@
+{
+    "background": {
+        "uniqueId": 9366723575,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "transparent",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                }
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+    },
+    "background2": {
+        "uniqueId": 12947092524,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "transparent",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
+                "gradient": "linear-gradient(90deg,#455FA2 0%,#2D84C1 100%)",
+                "color": "#FF0000"
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+    },
+    "leftFeatures": [
+        [
+            {
+                "uniqueId": 1054454413,
+                "wwVersion": 3,
+                "content": {
+                    "type": "ww-row",
+                    "data": {
+                        "wwObjects": [
+                            {
+                                "uniqueId": 7737351526,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-image",
+                                    "data": {
+                                        "url": "https://cdn.weweb.app/designs/5/sections/0GjMgYUqGLQXEwDYFnd23Z6qf54gP9dA.svg",
+                                        "alt": "",
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "pos": {
+                                            "left": "0%",
+                                            "top": "0%",
+                                            "width": "100%",
+                                            "height": "100%"
+                                        },
+                                        "zoom": 1,
+                                        "style": {
+                                            "borderRadius": 0,
+                                            "borderWidth": 0,
+                                            "borderColor": null,
+                                            "borderStyle": null,
+                                            "overlay": null,
+                                            "filter": null,
+                                            "boxShadow": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "b": 0,
+                                                "s": 0,
+                                                "c": ""
+                                            },
+                                            "minWidth": "50"
+                                        },
+                                        "animation": {
+                                            "duration": 0,
+                                            "delay": 0,
+                                            "fn": null,
+                                            "opacity": 1,
+                                            "scale": 1,
+                                            "translateX": 0,
+                                            "translateY": 0,
+                                            "rotate": 0
+                                        },
+                                        "imgSize": {
+                                            "w": 1920,
+                                            "h": 1080
+                                        },
+                                        "hover": {
+                                            "name": "",
+                                            "options": {}
+                                        },
+                                        "focusPoint": [
+                                            50,
+                                            50
+                                        ],
+                                        "crop": {
+                                            "cw": 98.03921568627452,
+                                            "ch": 98.02235597592433,
+                                            "cx": 0,
+                                            "cy": 0.9888220120378322
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": 106.89530922431867,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 20,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 20,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            },
+                            {
+                                "uniqueId": 7562914212,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-text",
+                                    "data": {
+                                        "text": {
+                                            "fr": "<p>Nouveau texte</p>",
+                                            "en": "<p>Choose between many presets to build your layouts</p>"
+                                        },
+                                        "tag": "div",
+                                        "align": "",
+                                        "font": "",
+                                        "size": "",
+                                        "color": "",
+                                        "classes": [],
+                                        "children": [],
+                                        "fontStyle": "",
+                                        "_q": {
+                                            "fr": true,
+                                            "en": true
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": -1,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            }
+                        ],
+                        "align": "center",
+                        "justify": "center"
+                    }
+                },
+                "link": {
+                    "type": "none",
+                    "data": {}
+                },
+                "ratio": -1,
+                "paddings": {
+                    "xs": {
+                        "top": 40,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 40
+                    },
+                    "md": {
+                        "top": 35,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 35
+                    }
+                },
+                "hidden": false,
+                "tags": [],
+                "children": {},
+                "data": {},
+                "anim": {}
+            }
+        ],
+        [
+            {
+                "uniqueId": 3529659586,
+                "wwVersion": 3,
+                "content": {
+                    "type": "ww-row",
+                    "data": {
+                        "wwObjects": [
+                            {
+                                "uniqueId": 13717445123,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-icon",
+                                    "data": {
+                                        "icon": "wwi wwi-edit-style",
+                                        "style": {
+                                            "color": "#000000",
+                                            "backgroundColor": "#FFFFFF00",
+                                            "gradient": {},
+                                            "borderRadius": 50,
+                                            "borderWidth": 0,
+                                            "borderColor": "#000000",
+                                            "borderStyle": "none",
+                                            "boxShadow": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "b": 0,
+                                                "s": 0,
+                                                "c": ""
+                                            },
+                                            "size": 40,
+                                            "fontSize": 40
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": 106.89530922431867,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 10,
+                                        "right": 20,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 20,
+                                        "right": 20,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            },
+                            {
+                                "uniqueId": 12128801137,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-text",
+                                    "data": {
+                                        "text": {
+                                            "fr": "<p>Nouveau texte</p>",
+                                            "en": "<p>Use the interface to get exactly what you whant where you whant</p>"
+                                        },
+                                        "tag": "div",
+                                        "align": "",
+                                        "font": "",
+                                        "size": "",
+                                        "color": "",
+                                        "classes": [],
+                                        "children": [],
+                                        "fontStyle": "",
+                                        "_q": {
+                                            "fr": true,
+                                            "en": true
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": -1,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            }
+                        ],
+                        "align": "center",
+                        "justify": "flex-start"
+                    }
+                },
+                "link": {
+                    "type": "none",
+                    "data": {}
+                },
+                "ratio": -1,
+                "paddings": {
+                    "xs": {
+                        "top": 40,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 40
+                    },
+                    "md": {
+                        "top": 35,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 35
+                    }
+                },
+                "hidden": false,
+                "tags": [],
+                "children": {},
+                "data": {},
+                "anim": {}
+            }
+        ],
+        [
+            {
+                "uniqueId": 10392519215,
+                "wwVersion": 3,
+                "content": {
+                    "type": "ww-row",
+                    "data": {
+                        "wwObjects": [
+                            {
+                                "uniqueId": 13109025047,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-icon",
+                                    "data": {
+                                        "icon": "wwi wwi-edit-margin",
+                                        "style": {
+                                            "color": "#000000",
+                                            "backgroundColor": "#FFFFFF00",
+                                            "gradient": {},
+                                            "borderRadius": 50,
+                                            "borderWidth": 0,
+                                            "borderColor": "#000000",
+                                            "borderStyle": "none",
+                                            "boxShadow": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "b": 0,
+                                                "s": 0,
+                                                "c": ""
+                                            },
+                                            "size": 40,
+                                            "fontSize": 40
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": 106.89530922431867,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 10,
+                                        "right": 20,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 20,
+                                        "right": 20,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            },
+                            {
+                                "uniqueId": 8609988530,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-text",
+                                    "data": {
+                                        "text": {
+                                            "fr": "<p>Nouveau texte</p>",
+                                            "en": "<p>Use the expert mode to add specifics thanks to flexbox CSS</p>"
+                                        },
+                                        "tag": "div",
+                                        "align": "",
+                                        "font": "",
+                                        "size": "",
+                                        "color": "",
+                                        "classes": [],
+                                        "children": [],
+                                        "fontStyle": "",
+                                        "_q": {
+                                            "fr": true,
+                                            "en": true
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": -1,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {}
+                            }
+                        ],
+                        "align": "center",
+                        "justify": "flex-start"
+                    }
+                },
+                "link": {
+                    "type": "none",
+                    "data": {}
+                },
+                "ratio": -1,
+                "paddings": {
+                    "xs": {
+                        "top": 40,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 40
+                    },
+                    "md": {
+                        "top": 35,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 35
+                    }
+                },
+                "hidden": false,
+                "tags": [],
+                "children": {},
+                "data": {},
+                "anim": {}
+            }
+        ]
+    ],
+    "rightFeatures": [
+        {
+            "uniqueId": 5664140510,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-image",
+                "data": {
+                    "url": "https://cdn.weweb.app/designs/5/sections/a1Ras7oHX6mf5rCybVxkhgmPwRNfpy9E.svg",
+                    "alt": "",
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "pos": {
+                        "left": "24.22854010025063%",
+                        "top": "0%",
+                        "width": "51.54291979949874%",
+                        "height": "100%"
+                    },
+                    "zoom": 0.5154291979949874,
+                    "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "borderColor": null,
+                        "borderStyle": null,
+                        "overlay": null,
+                        "filter": null,
+                        "boxShadow": {
+                            "x": 0,
+                            "y": 0,
+                            "b": 0,
+                            "s": 0,
+                            "c": ""
+                        }
+                    },
+                    "animation": {
+                        "duration": 0,
+                        "delay": 0,
+                        "fn": null,
+                        "opacity": 1,
+                        "scale": 1,
+                        "translateX": 0,
+                        "translateY": 0,
+                        "rotate": 0
+                    },
+                    "imgSize": {
+                        "w": 1920,
+                        "h": 1080
+                    },
+                    "hover": {
+                        "name": "",
+                        "options": {}
+                    },
+                    "focusPoint": [
+                        50,
+                        50
+                    ],
+                    "crop": {
+                        "cw": 99.67670159651095,
+                        "ch": 99.52131297013905,
+                        "cx": 0,
+                        "cy": 0.239343514930479
+                    }
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        },
+        {
+            "uniqueId": 7045578325,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-text",
+                "data": {
+                    "text": {
+                        "fr": "<p>Nouveau texte</p>",
+                        "en": "<p style=\"text-align: center;\"><span class=\"ww-font-size-verybig\" style=\"color: rgb(255, 255, 255);\">GRIDS</span></p>"
+                    },
+                    "tag": "div",
+                    "align": "",
+                    "font": "",
+                    "size": "",
+                    "color": "",
+                    "classes": [],
+                    "children": [],
+                    "fontStyle": "",
+                    "_q": {
+                        "fr": true,
+                        "en": true
+                    }
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 20,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 20
+                },
+                "md": {
+                    "top": 20,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 20
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        },
+        {
+            "uniqueId": 7368224293,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-button",
+                "data": {
+                    "text": {
+                        "uniqueId": 13473350156,
+                        "wwVersion": 3,
+                        "content": {
+                            "type": "ww-text",
+                            "data": {
+                                "text": {
+                                    "fr": "<p>Nouveau bouton</p>",
+                                    "en": "<p><span class=\"ww-font-size-normal\"> [[wwObject=0]]LEARN MORE</span></p>"
+                                },
+                                "tag": "div",
+                                "align": "",
+                                "font": "",
+                                "size": "",
+                                "color": "",
+                                "classes": [],
+                                "children": [
+                                    {
+                                        "uniqueId": 5199317853,
+                                        "wwVersion": 3,
+                                        "content": {
+                                            "type": "ww-icon",
+                                            "data": {
+                                                "icon": "wwi wwi-video",
+                                                "style": {
+                                                    "color": "#000000",
+                                                    "backgroundColor": "#FFFFFF",
+                                                    "gradient": {},
+                                                    "borderRadius": 50,
+                                                    "borderWidth": 0,
+                                                    "borderColor": "#000000",
+                                                    "borderStyle": "none",
+                                                    "boxShadow": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "b": 0,
+                                                        "s": 0,
+                                                        "c": ""
+                                                    },
+                                                    "size": 26,
+                                                    "fontSize": 25
+                                                }
+                                            }
+                                        },
+                                        "link": {
+                                            "type": "none",
+                                            "data": {}
+                                        },
+                                        "ratio": -1,
+                                        "paddings": {
+                                            "xs": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            },
+                                            "md": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "hidden": false,
+                                        "tags": [],
+                                        "children": {},
+                                        "data": {},
+                                        "anim": {}
+                                    }
+                                ],
+                                "fontStyle": "",
+                                "_q": {
+                                    "fr": true,
+                                    "en": true
+                                }
+                            }
+                        },
+                        "link": {
+                            "type": "none",
+                            "data": {}
+                        },
+                        "ratio": -1,
+                        "paddings": {
+                            "xs": {
+                                "top": 10,
+                                "left": 30,
+                                "right": 30,
+                                "bottom": 10
+                            },
+                            "md": {
+                                "top": 10,
+                                "left": 30,
+                                "right": 30,
+                                "bottom": 10
+                            }
+                        },
+                        "hidden": false,
+                        "tags": [],
+                        "children": {},
+                        "data": {},
+                        "anim": {}
+                    },
+                    "style": {
+                        "backgroundColor": "#FFFFFF",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 0,
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "padding": 0,
+                        "justify": null,
+                        "boxShadow": {
+                            "x": 0,
+                            "y": 0,
+                            "b": 0,
+                            "s": 0,
+                            "c": ""
+                        }
+                    },
+                    "fullWidth": false
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        }
+    ]
+}
