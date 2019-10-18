@@ -224,13 +224,14 @@ export default {
 .features-little-cards {
     position: relative;
     pointer-events: all;
-    margin: 50px 0;
+    margin: 120px 0;
     .background {
         position: absolute;
         top: 0;
         left: 0;
+        bottom: 0;
+        right: 0;
         height: 100%;
-        width: 100%;
         &.rounded {
             overflow: hidden;
             @media (min-width: 992px) {
@@ -253,6 +254,7 @@ export default {
         flex-direction: column;
         @media (min-width: 992px) {
             width: 90%;
+            background-color: red;
             padding: 80px 0;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
