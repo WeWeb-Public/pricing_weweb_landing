@@ -1,6 +1,6 @@
 {
     "background": {
-        "uniqueId": 9366723575,
+        "uniqueId": 2201837522,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -47,7 +47,7 @@
         "anim": {}
     },
     "background2": {
-        "uniqueId": 12947092524,
+        "uniqueId": 5979478477,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -98,14 +98,14 @@
     "leftFeatures": [
         [
             {
-                "uniqueId": 1054454413,
+                "uniqueId": 6768863915,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 7737351526,
+                                "uniqueId": 12537964676,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-image",
@@ -195,14 +195,14 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 7562914212,
+                                "uniqueId": 12634861020,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
                                     "data": {
                                         "text": {
                                             "fr": "<p>Nouveau texte</p>",
-                                            "en": "<p>Choose between many presets to build your layouts</p>"
+                                            "en": "<p><span style=\"color: rgb(94, 94, 94);\">Choose between many presets to build your layouts</span></p>"
                                         },
                                         "tag": "div",
                                         "align": "",
@@ -276,21 +276,21 @@
         ],
         [
             {
-                "uniqueId": 3529659586,
+                "uniqueId": 7503129428,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 13717445123,
+                                "uniqueId": 12579089452,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-icon",
                                     "data": {
                                         "icon": "wwi wwi-edit-style",
                                         "style": {
-                                            "color": "#000000",
+                                            "color": "#2D84C1",
                                             "backgroundColor": "#FFFFFF00",
                                             "gradient": {},
                                             "borderRadius": 50,
@@ -335,14 +335,14 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 12128801137,
+                                "uniqueId": 9746397927,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
                                     "data": {
                                         "text": {
                                             "fr": "<p>Nouveau texte</p>",
-                                            "en": "<p>Use the interface to get exactly what you whant where you whant</p>"
+                                            "en": "<p><span style=\"color: rgb(94, 94, 94);\">Use the interface to get exactly what you whant where you whant</span></p>"
                                         },
                                         "tag": "div",
                                         "align": "",
@@ -416,21 +416,21 @@
         ],
         [
             {
-                "uniqueId": 10392519215,
+                "uniqueId": 2372594984,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 13109025047,
+                                "uniqueId": 9410624046,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-icon",
                                     "data": {
                                         "icon": "wwi wwi-edit-margin",
                                         "style": {
-                                            "color": "#000000",
+                                            "color": "#2D84C1",
                                             "backgroundColor": "#FFFFFF00",
                                             "gradient": {},
                                             "borderRadius": 50,
@@ -475,14 +475,14 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 8609988530,
+                                "uniqueId": 11817018300,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
                                     "data": {
                                         "text": {
                                             "fr": "<p>Nouveau texte</p>",
-                                            "en": "<p>Use the expert mode to add specifics thanks to flexbox CSS</p>"
+                                            "en": "<p><span style=\"color: rgb(94, 94, 94);\">Use the expert mode to add specifics thanks to flexbox CSS</span></p>"
                                         },
                                         "tag": "div",
                                         "align": "",
@@ -557,7 +557,7 @@
     ],
     "rightFeatures": [
         {
-            "uniqueId": 5664140510,
+            "uniqueId": 10128534521,
             "wwVersion": 3,
             "content": {
                 "type": "ww-image",
@@ -613,10 +613,10 @@
                         50
                     ],
                     "crop": {
-                        "cw": 99.67670159651095,
-                        "ch": 99.52131297013905,
+                        "cw": 99.64927422667144,
+                        "ch": 99.49196302157074,
                         "cx": 0,
-                        "cy": 0.239343514930479
+                        "cy": 0.2540184892146302
                     }
                 }
             },
@@ -628,8 +628,8 @@
             "paddings": {
                 "xs": {
                     "top": 0,
-                    "left": 0,
-                    "right": 0,
+                    "left": 60,
+                    "right": 60,
                     "bottom": 0
                 },
                 "md": {
@@ -646,7 +646,7 @@
             "anim": {}
         },
         {
-            "uniqueId": 7045578325,
+            "uniqueId": 15070881928,
             "wwVersion": 3,
             "content": {
                 "type": "ww-text",
@@ -695,20 +695,20 @@
             "anim": {}
         },
         {
-            "uniqueId": 7368224293,
+            "uniqueId": 11900174977,
             "wwVersion": 3,
             "content": {
                 "type": "ww-button",
                 "data": {
                     "text": {
-                        "uniqueId": 13473350156,
+                        "uniqueId": 9949863018,
                         "wwVersion": 3,
                         "content": {
                             "type": "ww-text",
                             "data": {
                                 "text": {
                                     "fr": "<p>Nouveau bouton</p>",
-                                    "en": "<p><span class=\"ww-font-size-normal\"> [[wwObject=0]]LEARN MORE</span></p>"
+                                    "en": "<p><span class=\"ww-font-size-normal\"> [[wwObject=0]] </span><span class=\"ww-font-size-normal\" style=\"color: rgb(45, 132, 193);\">LEARN MORE</span></p>"
                                 },
                                 "tag": "div",
                                 "align": "",
@@ -718,14 +718,14 @@
                                 "classes": [],
                                 "children": [
                                     {
-                                        "uniqueId": 5199317853,
+                                        "uniqueId": 5024172616,
                                         "wwVersion": 3,
                                         "content": {
                                             "type": "ww-icon",
                                             "data": {
                                                 "icon": "wwi wwi-video",
                                                 "style": {
-                                                    "color": "#000000",
+                                                    "color": "#2D84C1",
                                                     "backgroundColor": "#FFFFFF",
                                                     "gradient": {},
                                                     "borderRadius": 50,
@@ -832,7 +832,7 @@
                     "top": 0,
                     "left": 0,
                     "right": 0,
-                    "bottom": 0
+                    "bottom": 50
                 },
                 "md": {
                     "top": 0,

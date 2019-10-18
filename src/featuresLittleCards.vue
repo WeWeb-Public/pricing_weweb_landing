@@ -169,6 +169,7 @@ export default {
 .features-little-cards {
     position: relative;
     pointer-events: all;
+    margin: 50px 0;
     .background {
         position: absolute;
         top: 0;
@@ -176,17 +177,27 @@ export default {
         height: 100%;
         width: 100%;
         &.rounded {
-            border-radius: 20px;
             overflow: hidden;
+            @media (min-width: 992px) {
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                width: 90%;
+            }
         }
     }
     .content-container {
         position: relative;
-        padding: 80px 0;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        width: 90%;
+        padding: 40px 0;
+        width: 100%;
         display: flex;
+        flex-direction: column;
+        @media (min-width: 992px) {
+            padding: 80px 0;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            flex-basis: 90%;
+            flex-direction: row;
+        }
         .left-content {
             position: relative;
             margin: 0 13%;
@@ -195,6 +206,10 @@ export default {
             justify-content: flex-end;
             flex-direction: column;
             margin-bottom: -125px;
+            order: 1;
+            @media (min-width: 992px) {
+                order: 0;
+            }
             .card {
                 position: relative;
                 width: 100%;
@@ -227,10 +242,14 @@ export default {
         .right-content {
             position: relative;
             flex-basis: 26%;
+            order: 0;
             height: 100%;
-            margin-right: 13%;
             display: flex;
             align-items: center;
+            @media (min-width: 992px) {
+                order: 1;
+                margin-right: 13%;
+            }
             .list {
                 width: 100%;
             }
