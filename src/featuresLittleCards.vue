@@ -6,13 +6,13 @@
 <template>
     <div class="features-little-cards" :style="customStyle">
         <!-- wwManager:start -->
-        <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl"></wwSectionEditMenu>
+        <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl" :options="openOptions"></wwSectionEditMenu>
         <!-- wwManager:end -->
         <!-- Weweb Wallpaper -->
         <wwObject class="background" v-bind:ww-object="section.data.background" ww-category="background"></wwObject>
-        <div class="content-container">
-            <wwObject class="background rounded" v-bind:ww-object="section.data.background2" ww-category="background"></wwObject>
-            <div class="left-content">
+        <div class="content-container" :class="{'content-on-the-right': section.data.contentOntheRight}">
+            <wwObject class="background rounded" :class="{'content-on-the-right': section.data.contentOntheRight}" v-bind:ww-object="section.data.background2" ww-category="background"></wwObject>
+            <div class="left-content" :class="{'content-on-the-right': section.data.contentOntheRight}">
                 <div class="card" v-for="(feature, index) in section.data.leftFeatures" :key="index">
                     <!-- wwManager:start -->
                     <div v-if="editMode" class="contextmenu-container">
@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <div class="right-content">
+            <div class="right-content" :class="{'content-on-the-right': section.data.contentOntheRight}">
                 <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.rightFeatures" class="list" @ww-add="add(section.data.rightFeatures, $event)" @ww-remove="remove(section.data.rightFeatures, $event)">
                     <wwObject tag="div" v-for="object in section.data.rightFeatures" :key="object.uniqueId" :ww-object="object"></wwObject>
                 </wwLayoutColumn>
@@ -156,7 +156,62 @@ export default {
             const newFeature = JSON.parse(JSON.stringify(this.section.data.leftFeatures[0]))
             wwLib.wwUtils.changeUniqueIds(newFeature)
             return newFeature
-        }
+        },
+        async openOptions() {
+            try {
+                wwLib.wwPopups.addStory('SECTION_CONFIG', {
+                    title: {
+                        en: 'Section configuration',
+                        fr: 'Configuration de la section'
+                    },
+                    type: 'wwPopupForm',
+                    storyData: {
+                        fields: [
+                            {
+                                label: {
+                                    en: 'Content on the right side:',
+                                    fr: 'Contenu sur le côté droit :'
+                                },
+                                type: 'radio',
+                                key: 'contentOntheRight',
+                                valueData: 'section.data.contentOntheRight'
+                            }
+                        ]
+                    },
+                    buttons: {
+                        NEXT: {
+                            text: {
+                                en: 'Finish',
+                                fr: 'Terminer'
+                            },
+                            next: null
+                        }
+                    }
+                })
+                let options = {
+                    firstPage: 'SECTION_CONFIG',
+                    data: {
+                        section: this.section,
+                    },
+                }
+                const result = await wwLib.wwPopups.open(options)
+                console.log(result)
+                let needUpdate = false
+                if (typeof (result) != 'undefined') {
+                    if (typeof (result.contentOntheRight) != 'undefined') {
+                        this.section.data.contentOntheRight = result.contentOntheRight
+                        needUpdate = true
+                    }
+                    if (needUpdate) {
+                        this.sectionCtrl.update(this.section);
+                        this.$forceUpdate();
+                    }
+                }
+            } catch (error) {
+                wwLib.wwLog.error('ERROR : ', error);
+            }
+        },
+        /* wwManager:end */
         /* wwManager:end */
     }
 };
@@ -181,7 +236,12 @@ export default {
             @media (min-width: 992px) {
                 border-top-right-radius: 30px;
                 border-bottom-right-radius: 30px;
-                width: 90%;
+                &.content-on-the-right {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    border-top-left-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                }
             }
         }
     }
@@ -192,11 +252,18 @@ export default {
         display: flex;
         flex-direction: column;
         @media (min-width: 992px) {
+            width: 90%;
             padding: 80px 0;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
-            flex-basis: 90%;
             flex-direction: row;
+            &.content-on-the-right {
+                margin-left: 10%;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+            }
         }
         .left-content {
             position: relative;
@@ -209,6 +276,10 @@ export default {
             order: 1;
             @media (min-width: 992px) {
                 order: 0;
+                &.content-on-the-right {
+                    order: 1;
+                    margin-left: 13%;
+                }
             }
             .card {
                 position: relative;
@@ -243,12 +314,16 @@ export default {
             position: relative;
             flex-basis: 26%;
             order: 0;
-            height: 100%;
             display: flex;
             align-items: center;
             @media (min-width: 992px) {
                 order: 1;
                 margin-right: 13%;
+                &.content-on-the-right {
+                    order: 0;
+                    margin-right: 0%;
+                    margin-left: 13%;
+                }
             }
             .list {
                 width: 100%;
