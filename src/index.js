@@ -1,4 +1,4 @@
-import section from './featuresLittleCards.vue'
+import section from './pricingWewebLanding.vue'
 
 const name = "__NAME__";
 const version = '__VERSION__';
