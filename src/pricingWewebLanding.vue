@@ -25,7 +25,7 @@
                 <span>monthly</span>
                 <!-- wwManager:start -->
                 <!-- UPDATE BUTTON -->
-                <div class="update-button" @click="updateSectionData()">UPDATE</div>
+                <div v-if="editMode" class="update-button" @click="updateSectionData()">UPDATE</div>
                 <!-- wwManager:end -->
             </span>
         </div>
