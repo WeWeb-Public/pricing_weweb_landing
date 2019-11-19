@@ -1,16 +1,26 @@
 {
     "background": {
-        "uniqueId": 14707392367,
+        "uniqueId": 8273871346,
         "wwVersion": 3,
         "content": {
-            "type": "ww-color",
+            "type": "ww-image",
             "data": {
-                "backgroundColor": "transparent",
+                "url": "https://cdn.weweb.app/designs/1/sections/pricing-header-1.svg?v=1574176889698",
+                "twicUrl": "https://cdn.weweb.app/public/images/no_image_selected.png",
+                "alt": "",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "pos": {},
+                "zoom": 1,
                 "style": {
                     "borderRadius": 0,
                     "borderWidth": 0,
                     "borderColor": null,
                     "borderStyle": null,
+                    "overlay": null,
+                    "filter": null,
                     "boxShadow": {
                         "x": 0,
                         "y": 0,
@@ -19,14 +29,35 @@
                         "c": ""
                     }
                 },
-                "wwObjects": []
+                "animation": {
+                    "duration": 0,
+                    "delay": 0,
+                    "fn": null,
+                    "opacity": 1,
+                    "scale": 1,
+                    "translateX": 0,
+                    "translateY": 0,
+                    "rotate": 0
+                },
+                "imgSize": {
+                    "w": 1920,
+                    "h": 1080
+                },
+                "hover": {
+                    "name": "",
+                    "options": {}
+                },
+                "focusPoint": [
+                    50,
+                    50
+                ]
             }
         },
         "link": {
             "type": "none",
             "data": {}
         },
-        "ratio": -1,
+        "ratio": 70.76297883064517,
         "paddings": {
             "xs": {
                 "top": 0,
@@ -48,7 +79,7 @@
         "anim": {}
     },
     "background2": {
-        "uniqueId": 752269911,
+        "uniqueId": 2390335733,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -100,14 +131,14 @@
     "leftFeatures": [
         [
             {
-                "uniqueId": 1730848382,
+                "uniqueId": 9024683854,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 798152995,
+                                "uniqueId": 595704688,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-image",
@@ -197,7 +228,7 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 4648873549,
+                                "uniqueId": 11445495868,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
@@ -278,14 +309,14 @@
         ],
         [
             {
-                "uniqueId": 5982350599,
+                "uniqueId": 4361932555,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 12125906670,
+                                "uniqueId": 848404323,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-icon",
@@ -337,7 +368,7 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 14830362785,
+                                "uniqueId": 2878012740,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
@@ -418,14 +449,14 @@
         ],
         [
             {
-                "uniqueId": 2948839427,
+                "uniqueId": 13012364451,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-row",
                     "data": {
                         "wwObjects": [
                             {
-                                "uniqueId": 14445717658,
+                                "uniqueId": 8881203102,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-icon",
@@ -477,7 +508,7 @@
                                 "anim": {}
                             },
                             {
-                                "uniqueId": 14216993697,
+                                "uniqueId": 2489845249,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-text",
@@ -559,7 +590,7 @@
     ],
     "rightFeatures": [
         {
-            "uniqueId": 12112885417,
+            "uniqueId": 2985320721,
             "wwVersion": 3,
             "content": {
                 "type": "ww-image",
@@ -653,7 +684,7 @@
             "anim": {}
         },
         {
-            "uniqueId": 1913024503,
+            "uniqueId": 15429753469,
             "wwVersion": 3,
             "content": {
                 "type": "ww-text",
@@ -702,13 +733,13 @@
             "anim": {}
         },
         {
-            "uniqueId": 2718662825,
+            "uniqueId": 1343804151,
             "wwVersion": 3,
             "content": {
                 "type": "ww-button",
                 "data": {
                     "text": {
-                        "uniqueId": 6735280529,
+                        "uniqueId": 11518821264,
                         "wwVersion": 3,
                         "content": {
                             "type": "ww-text",
@@ -725,7 +756,7 @@
                                 "classes": [],
                                 "children": [
                                     {
-                                        "uniqueId": 4729843424,
+                                        "uniqueId": 14537233418,
                                         "wwVersion": 3,
                                         "content": {
                                             "type": "ww-icon",
@@ -855,5 +886,100 @@
             "anim": {}
         }
     ],
-    "contentOntheRight": false
+    "contentOntheRight": false,
+    "contentList": [
+        {
+            "uniqueId": 11172047886,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-text",
+                "data": {
+                    "text": {
+                        "fr": "Nouveau texte",
+                        "en": "<p style=\"text-align: center;\"><span class=\"ww-font-size-huge\" style=\"color: rgb(255, 255, 255);\">Pricing</span></p>"
+                    },
+                    "tag": "div",
+                    "align": "",
+                    "font": "",
+                    "size": "",
+                    "color": "",
+                    "classes": [],
+                    "children": [],
+                    "fontStyle": ""
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 80,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 80,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        },
+        {
+            "uniqueId": 2235793330,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-text",
+                "data": {
+                    "text": {
+                        "fr": "Nouveau texte",
+                        "en": "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">In eu ipsum tellus. Aenean condimentum elementum suscipit. Fusce viverra sollicitudin lacus, sit amet egestas orci pretium non. Mauris vel pretium mauris. Donec tristique massa ac feugiat viverra</span></p>"
+                    },
+                    "tag": "div",
+                    "align": "",
+                    "font": "",
+                    "size": "",
+                    "color": "",
+                    "classes": [],
+                    "children": [],
+                    "fontStyle": ""
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 20,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 20,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        }
+    ],
+    "requestType": "get",
+    "planUrl": "http://localhost:1337/plans",
+    "planJSON": "[{\"id\":1,\"name\":\"website-basic\",\"monthlyPrice\":29,\"annuallyPrice\":24,\"features\":[{\"icon\":\"in\",\"label\":{\"en\":\"Unlimited number of pages\"},\"tooltip\":{\"en\":\"Get as many pages as you need of your site\"}},{\"icon\":\"in\",\"label\":{\"en\":\"Hosting\"},\"tooltip\":\"One-click hosting on AWS to ensure a fast, secured and scalable infrastructure for your site\"},{\"icon\":\"in\",\"label\":{\"en\":\"Custom domain\"},\"tooltip\":\"Connect your custom domain name\"},{\"icon\":\"in\",\"label\":{\"en\":\"Free SLL certificate\"},\"tooltip\":\"SSL certificate insures your site is secured and better ranked on Google\"},{\"icon\":\"in\",\"label\":{\"en\":\"Super fast loading time\"},\"tooltip\":\"Page loading time optimization: compressed code, image cropping & hosting on CDN included (Amazon CloudFront)\"},{\"icon\":\"in\",\"label\":{\"en\":\"SEO settings\"},\"tooltip\":\"Customize your Google preview and your social network previews for each pages. WeWeb manages your sitemap automatically\"},{\"icon\":\"in\",\"label\":{\"en\":\"Developer tools\"},\"tooltip\":\"Upload your own custom components in the editor library, add custom fonts & icon libraries, connect any API\"},{\"icon\":\"in\",\"label\":{\"en\":\"Content Editors\"},\"tooltip\":\"Give access to your site editor to other persons\"},{\"icon\":\"in\",\"label\":{\"en\":\"10.000 monthly visits\"},\"tooltip\":\"The number of visits you can get to your site every month. If you go over it, we will contact you so you can get to the next plan\"},{\"icon\":\"in\",\"label\":{\"en\":\"2 languages\"},\"tooltip\":\"The number of languages available for your site. WeWeb automatically manages the language files to optimize your SEO for each language\"},{\"icon\":\"out\",\"label\":{\"en\":\"Integrated analytics system\"},\"tooltip\":\"Display a visual report of your visitors behavior on your site: number of visits, origin of each visitor, time spent on each section of your site, % of click on each button\"}],\"title\":\"basic\",\"border\":\"1px solid #19947C\",\"color\":\"linear-gradient(to right, #19947C 0%, #49B9B3 100%)\",\"colorHash\":\"#19947C\",\"link\":\"https://login.weweb.io\",\"created_at\":\"2019-11-11T18:35:44.076Z\",\"updated_at\":\"2019-11-19T16:38:55.610Z\"},{\"id\":2,\"name\":\"website-pro\",\"monthlyPrice\":59,\"annuallyPrice\":49,\"features\":[{\"icon\":\"in\",\"label\":{\"en\":\"Unlimited number of pages\"},\"tooltip\":{\"en\":\"Get as many pages as you need of your site\"}},{\"icon\":\"in\",\"label\":{\"en\":\"Hosting\"},\"tooltip\":\"One-click hosting on AWS to ensure a fast, secured and scalable infrastructure for your site\"},{\"icon\":\"in\",\"label\":{\"en\":\"Custom domain\"},\"tooltip\":\"Connect your custom domain name\"},{\"icon\":\"in\",\"label\":{\"en\":\"Free SLL certificate\"},\"tooltip\":\"SSL certificate insures your site is secured and better ranked on Google\"},{\"icon\":\"in\",\"label\":{\"en\":\"Super fast loading time\"},\"tooltip\":\"Page loading time optimization: compressed code, image cropping & hosting on CDN included (Amazon CloudFront)\"},{\"icon\":\"in\",\"label\":{\"en\":\"SEO settings\"},\"tooltip\":\"Customize your Google preview and your social network previews for each pages. WeWeb manages your sitemap automatically\"},{\"icon\":\"in\",\"label\":{\"en\":\"Developer tools\"},\"tooltip\":\"Upload your own custom components in the editor library, add custom fonts & icon libraries, connect any API\"},{\"icon\":\"in\",\"label\":{\"en\":\"Content Editors\"},\"tooltip\":\"Give access to your site editor to other persons\"},{\"icon\":\"up\",\"label\":{\"en\":\"100.000 monthly visits\"},\"tooltip\":\"The number of visits you can get to your site every month. If you go over it, we will contact you so you can get to the next plan\"},{\"icon\":\"up\",\"label\":{\"en\":\"Unlimited languages\"},\"tooltip\":\"The number of languages available for your site. WeWeb automatically manages the language files to optimize your SEO for each language\"},{\"icon\":\"in\",\"label\":{\"en\":\"Integrated analytics system\"},\"tooltip\":\"Display a visual report of your visitors behavior on your site: number of visits, origin of each visitor, time spent on each section of your site, % of click on each button\"}],\"title\":\"pro\",\"border\":\"1px solid #1763A9\",\"color\":\"linear-gradient(to right, #1763A9 0%, #2E85C2 100%)\",\"colorHash\":\"#1763A9\",\"link\":\"https://login.weweb.io\",\"created_at\":\"2019-11-11T18:36:36.619Z\",\"updated_at\":\"2019-11-19T16:39:30.139Z\"},{\"id\":3,\"name\":\"website-enterprise\",\"monthlyPrice\":149,\"annuallyPrice\":129,\"features\":[{\"icon\":\"in\",\"label\":{\"en\":\"Unlimited number of pages\"},\"tooltip\":{\"en\":\"Get as many pages as you need of your site\"}},{\"icon\":\"in\",\"label\":{\"en\":\"Hosting\"},\"tooltip\":\"One-click hosting on AWS to ensure a fast, secured and scalable infrastructure for your site\"},{\"icon\":\"in\",\"label\":{\"en\":\"Custom domain\"},\"tooltip\":\"Connect your custom domain name\"},{\"icon\":\"in\",\"label\":{\"en\":\"Free SLL certificate\"},\"tooltip\":\"SSL certificate insures your site is secured and better ranked on Google\"},{\"icon\":\"in\",\"label\":{\"en\":\"Super fast loading time\"},\"tooltip\":\"Page loading time optimization: compressed code, image cropping & hosting on CDN included (Amazon CloudFront)\"},{\"icon\":\"in\",\"label\":{\"en\":\"SEO settings\"},\"tooltip\":\"Customize your Google preview and your social network previews for each pages. WeWeb manages your sitemap automatically\"},{\"icon\":\"in\",\"label\":{\"en\":\"Developer tools\"},\"tooltip\":\"Upload your own custom components in the editor library, add custom fonts & icon libraries, connect any API\"},{\"icon\":\"in\",\"label\":{\"en\":\"Content Editors\"},\"tooltip\":\"Give access to your site editor to other persons\"},{\"icon\":\"up\",\"label\":{\"en\":\"1.000.000 monthly visits\"},\"tooltip\":\"The number of visits you can get to your site every month. If you go over it, we will contact you so you can get to the next plan\"},{\"icon\":\"up\",\"label\":{\"en\":\"Unlimited languages\"},\"tooltip\":\"The number of languages available for your site. WeWeb automatically manages the language files to optimize your SEO for each language\"},{\"icon\":\"up\",\"label\":{\"en\":\"Custom analytics system\"},\"tooltip\":\"Display a visual report of your visitors behavior on your site: number of visits, origin of each visitor, time spent on each section of your site, % of click on each button\"}],\"title\":\"enterprise\",\"border\":\"1px solid #CF2D7D\",\"color\":\"linear-gradient(to right, #CF2D7D 0%, #EA588D 100%)\",\"colorHash\":\"#CF2D7D\",\"link\":\"https://login.weweb.io\",\"created_at\":\"2019-11-11T18:38:20.978Z\",\"updated_at\":\"2019-11-19T16:39:47.190Z\"}]"
 }
