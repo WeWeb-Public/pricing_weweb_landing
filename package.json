@@ -1,27 +1,27 @@
 {
-    "name": "pricing-weweb-landing",
-    "type": "section",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/WeWeb-Public/pricing-weweb-landing"
-    },
-    "version": "0.0.3",
-    "private": true,
-    "scripts": {
-        "build": "weweb-build",
-        "serve": "weweb-serve",
-        "upload": "weweb-upload"
-    },
-    "dependencies": {
-        "axios": "^0.19.0",
-        "vue": "^2.6.10"
-    },
-    "devDependencies": {
-        "weweb-client": "^1.0.47"
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ]
+  "name": "pricing-weweb-landing",
+  "type": "section",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeWeb-Public/pricing-weweb-landing"
+  },
+  "version": "0.0.5",
+  "private": true,
+  "scripts": {
+    "build": "weweb-build",
+    "serve": "weweb-serve",
+    "upload": "weweb-upload"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "weweb-client": "^1.0.47"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

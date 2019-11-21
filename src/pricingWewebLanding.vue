@@ -37,7 +37,7 @@
         <div v-if="plans && plans.length > 0" class="plan-container">
             <div v-for="plan in plans" :key="plan.id" class="plan" :style="{'border': plan.border}">
                 <div class="title" :style="{'color': plan.colorHash}">{{plan.title}}</div>
-                <div class="price">{{(annually)? plan.annuallyPrice: plan.monthlyPrice}}€/month</div>
+                <div class="price">{{(annually)? plan.annuallyPrice: plan.monthlyPrice}}€/website/month</div>
                 <div class="pay-today" :class="{'visible': annually}">{{priceAnnuallyToPayToday(plan.annuallyPrice)}}€ to pay today</div>
                 <div class="button" :style="{'background': plan.color}" center="true" invert="true" @click="selectPlan(plan.link)">
                     <span>SELECT</span>
